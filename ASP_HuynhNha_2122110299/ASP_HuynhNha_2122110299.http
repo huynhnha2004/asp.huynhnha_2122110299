@@ -1,0 +1,6 @@
+@ASP_HuynhNha_2122110299_HostAddress = http://localhost:5048
+
+GET {{ASP_HuynhNha_2122110299_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
