@@ -23,23 +23,43 @@ namespace ASP_HuynhNha_2122110299.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
         {
-            return await _context.Products.ToListAsync();
+            try
+            {
+                var products = await _context.Products
+                    .Include(p => p.Category) // Bao gồm luôn Category
+                    .ToListAsync();
+
+                return Ok(products);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Lỗi server: {ex.Message}");
+            }
         }
+
 
         // Lấy sản phẩm theo ID
         [HttpGet("{id}")]
         public async Task<ActionResult<Product>> GetProduct(int id)
         {
-            var product = await _context.Products.FindAsync(id);
-
-            if (product == null)
+            try
             {
-                return NotFound();
+                var product = await _context.Products
+                                            .Include(p => p.Category)
+                                            .FirstOrDefaultAsync(p => p.Id == id);
+
+                if (product == null)
+                {
+                    return NotFound();
+                }
+
+                return Ok(product);
             }
-
-            return product;
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Lỗi server: {ex.Message}");
+            }
         }
-
         // Thêm sản phẩm mới
         [HttpPost]
         public async Task<ActionResult<Product>> CreateProduct(Product product)

@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "ASP_HuynhNha_2122110299.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ASP_HuynhNha_2122110299.Controllers.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ASP_HuynhNha_2122110299.Controllers.CategoryController",
     "Method": "Get",
     "RelativePath": "api/Category",
@@ -115,6 +131,38 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "ASP_HuynhNha_2122110299.Controllers.OrderController",
+    "Method": "GetOrderDetail",
+    "RelativePath": "api/Order/detail/{orderId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASP_HuynhNha_2122110299.Controllers.OrderController",
+    "Method": "GetOrderByUser",
+    "RelativePath": "api/Order/user/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "ASP_HuynhNha_2122110299.Controllers.ProductController",
