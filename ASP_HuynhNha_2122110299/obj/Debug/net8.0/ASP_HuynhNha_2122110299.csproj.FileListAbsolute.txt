@@ -68,4 +68,6 @@ D:\ASP_HuynhNha_2122110299\asp.huynhnha_2122110299\ASP_HuynhNha_2122110299\obj\D
 D:\ASP_HuynhNha_2122110299\asp.huynhnha_2122110299\ASP_HuynhNha_2122110299\obj\Debug\net8.0\ASP_HuynhNha_2122110299.pdb
 D:\ASP_HuynhNha_2122110299\asp.huynhnha_2122110299\ASP_HuynhNha_2122110299\obj\Debug\net8.0\ASP_HuynhNha_2122110299.genruntimeconfig.cache
 D:\ASP_HuynhNha_2122110299\asp.huynhnha_2122110299\ASP_HuynhNha_2122110299\obj\Debug\net8.0\ref\ASP_HuynhNha_2122110299.dll
+D:\ASP_HuynhNha_2122110299\asp.huynhnha_2122110299\ASP_HuynhNha_2122110299\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\ASP_HuynhNha_2122110299\asp.huynhnha_2122110299\ASP_HuynhNha_2122110299\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
 D:\ASP_HuynhNha_2122110299\asp.huynhnha_2122110299\ASP_HuynhNha_2122110299\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

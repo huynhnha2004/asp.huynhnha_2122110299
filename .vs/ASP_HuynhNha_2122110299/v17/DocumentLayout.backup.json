@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|solutionrelative:asp_huynhnha_2122110299\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|d:\\asp_huynhnha_2122110299\\asp.huynhnha_2122110299\\asp_huynhnha_2122110299\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|solutionrelative:asp_huynhnha_2122110299\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|d:\\asp_huynhnha_2122110299\\asp.huynhnha_2122110299\\asp_huynhnha_2122110299\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|solutionrelative:asp_huynhnha_2122110299\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|d:\\asp_huynhnha_2122110299\\asp.huynhnha_2122110299\\asp_huynhnha_2122110299\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,12 +19,52 @@
       "RelativeMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|solutionrelative:asp_huynhnha_2122110299\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|d:\\asp_huynhnha_2122110299\\asp.huynhnha_2122110299\\asp_huynhnha_2122110299\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|solutionrelative:asp_huynhnha_2122110299\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|d:\\asp_huynhnha_2122110299\\asp.huynhnha_2122110299\\asp_huynhnha_2122110299\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|solutionrelative:asp_huynhnha_2122110299\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|d:\\asp_huynhnha_2122110299\\asp.huynhnha_2122110299\\asp_huynhnha_2122110299\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|solutionrelative:asp_huynhnha_2122110299\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|d:\\asp_huynhnha_2122110299\\asp.huynhnha_2122110299\\asp_huynhnha_2122110299\\controllers\\orderdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|solutionrelative:asp_huynhnha_2122110299\\controllers\\orderdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|d:\\asp_huynhnha_2122110299\\asp.huynhnha_2122110299\\asp_huynhnha_2122110299\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|solutionrelative:asp_huynhnha_2122110299\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|d:\\asp_huynhnha_2122110299\\asp.huynhnha_2122110299\\asp_huynhnha_2122110299\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|solutionrelative:asp_huynhnha_2122110299\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Migrations\\20250417080840_InitDatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ASP_HuynhNha_2122110299\\Migrations\\20250417080840_InitDatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|d:\\asp_huynhnha_2122110299\\asp.huynhnha_2122110299\\asp_huynhnha_2122110299\\model\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|solutionrelative:asp_huynhnha_2122110299\\model\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|d:\\asp_huynhnha_2122110299\\asp.huynhnha_2122110299\\asp_huynhnha_2122110299\\data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|solutionrelative:asp_huynhnha_2122110299\\data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|d:\\asp_huynhnha_2122110299\\asp.huynhnha_2122110299\\asp_huynhnha_2122110299\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|solutionrelative:asp_huynhnha_2122110299\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|d:\\asp_huynhnha_2122110299\\asp.huynhnha_2122110299\\asp_huynhnha_2122110299\\model\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|solutionrelative:asp_huynhnha_2122110299\\model\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|d:\\asp_huynhnha_2122110299\\asp.huynhnha_2122110299\\asp_huynhnha_2122110299\\model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|solutionrelative:asp_huynhnha_2122110299\\model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|d:\\asp_huynhnha_2122110299\\asp.huynhnha_2122110299\\asp_huynhnha_2122110299\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -39,26 +79,6 @@
       "RelativeMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|solutionrelative:asp_huynhnha_2122110299\\asp_huynhnha_2122110299.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|d:\\asp_huynhnha_2122110299\\asp.huynhnha_2122110299\\asp_huynhnha_2122110299\\model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|solutionrelative:asp_huynhnha_2122110299\\model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|d:\\asp_huynhnha_2122110299\\asp.huynhnha_2122110299\\asp_huynhnha_2122110299\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|solutionrelative:asp_huynhnha_2122110299\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|d:\\asp_huynhnha_2122110299\\asp.huynhnha_2122110299\\asp_huynhnha_2122110299\\data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|solutionrelative:asp_huynhnha_2122110299\\data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|d:\\asp_huynhnha_2122110299\\asp.huynhnha_2122110299\\asp_huynhnha_2122110299\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|solutionrelative:asp_huynhnha_2122110299\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|d:\\asp_huynhnha_2122110299\\asp.huynhnha_2122110299\\asp_huynhnha_2122110299\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|solutionrelative:asp_huynhnha_2122110299\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|d:\\asp_huynhnha_2122110299\\asp.huynhnha_2122110299\\asp_huynhnha_2122110299\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|solutionrelative:asp_huynhnha_2122110299\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -69,10 +89,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|d:\\asp_huynhnha_2122110299\\asp.huynhnha_2122110299\\asp_huynhnha_2122110299\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|solutionrelative:asp_huynhnha_2122110299\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|d:\\asp_huynhnha_2122110299\\asp.huynhnha_2122110299\\asp_huynhnha_2122110299\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0DCE090-93B4-4EDE-A82C-92DFD27888B2}|ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj|solutionrelative:asp_huynhnha_2122110299\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,7 +98,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -93,50 +109,42 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Program.cs",
-              "RelativeDocumentMoniker": "ASP_HuynhNha_2122110299\\Program.cs",
-              "ToolTip": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Program.cs",
-              "RelativeToolTip": "ASP_HuynhNha_2122110299\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAqwBcAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T08:37:51.357Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "ASP_HuynhNha_2122110299\\Controllers\\OrderController.cs",
-              "ToolTip": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "ASP_HuynhNha_2122110299\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCkAAAABAAAAAAAAAA==",
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ASP_HuynhNha_2122110299\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ASP_HuynhNha_2122110299\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAApwCMAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T06:14:15.583Z",
+              "WhenOpened": "2025-04-04T07:59:46.455Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "ASP_HuynhNha_2122110299\\Data\\AppDbContext.cs",
-              "ToolTip": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "ASP_HuynhNha_2122110299\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAgwCQAAAAzAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "ASP_HuynhNha_2122110299\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "ASP_HuynhNha_2122110299\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAwC8AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T08:38:43.026Z",
+              "WhenOpened": "2025-04-11T06:02:20.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ASP_HuynhNha_2122110299\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ASP_HuynhNha_2122110299\\Controllers\\UserController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAxwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T05:21:00.122Z",
               "EditorCaption": ""
             },
             {
@@ -147,53 +155,191 @@
               "RelativeDocumentMoniker": "ASP_HuynhNha_2122110299\\Model\\Product.cs",
               "ToolTip": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Model\\Product.cs",
               "RelativeToolTip": "ASP_HuynhNha_2122110299\\Model\\Product.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAYwA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-28T08:37:34.76Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ASP_HuynhNha_2122110299\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "ASP_HuynhNha_2122110299\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAuwBMAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T08:38:43.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Program.cs",
+              "RelativeDocumentMoniker": "ASP_HuynhNha_2122110299\\Program.cs",
+              "ToolTip": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Program.cs",
+              "RelativeToolTip": "ASP_HuynhNha_2122110299\\Program.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAIwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T08:37:51.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "ASP_HuynhNha_2122110299\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "ASP_HuynhNha_2122110299\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAqwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T06:28:43.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "ASP_HuynhNha_2122110299\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "ASP_HuynhNha_2122110299\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T06:14:15.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderDetailController.cs",
+              "DocumentMoniker": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Controllers\\OrderDetailController.cs",
+              "RelativeDocumentMoniker": "ASP_HuynhNha_2122110299\\Controllers\\OrderDetailController.cs",
+              "ToolTip": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Controllers\\OrderDetailController.cs",
+              "RelativeToolTip": "ASP_HuynhNha_2122110299\\Controllers\\OrderDetailController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAxwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T05:21:15.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "ASP_HuynhNha_2122110299\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "ASP_HuynhNha_2122110299\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T08:09:34.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20250417080840_InitDatabase.cs",
+              "DocumentMoniker": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Migrations\\20250417080840_InitDatabase.cs",
+              "RelativeDocumentMoniker": "ASP_HuynhNha_2122110299\\Migrations\\20250417080840_InitDatabase.cs",
+              "ToolTip": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Migrations\\20250417080840_InitDatabase.cs",
+              "RelativeToolTip": "ASP_HuynhNha_2122110299\\Migrations\\20250417080840_InitDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T08:08:41.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "OrderDetail.cs",
               "DocumentMoniker": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Model\\OrderDetail.cs",
               "RelativeDocumentMoniker": "ASP_HuynhNha_2122110299\\Model\\OrderDetail.cs",
               "ToolTip": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Model\\OrderDetail.cs",
               "RelativeToolTip": "ASP_HuynhNha_2122110299\\Model\\OrderDetail.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAowA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-11T05:59:16.429Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Model\\User.cs",
+              "RelativeDocumentMoniker": "ASP_HuynhNha_2122110299\\Model\\User.cs",
+              "ToolTip": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Model\\User.cs",
+              "RelativeToolTip": "ASP_HuynhNha_2122110299\\Model\\User.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAQwCQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T05:39:05.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Order.cs",
               "DocumentMoniker": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Model\\Order.cs",
               "RelativeDocumentMoniker": "ASP_HuynhNha_2122110299\\Model\\Order.cs",
               "ToolTip": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Model\\Order.cs",
               "RelativeToolTip": "ASP_HuynhNha_2122110299\\Model\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-11T05:58:37.544Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
+              "Title": "AppDbContextFactory.cs",
+              "DocumentMoniker": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Data\\AppDbContextFactory.cs",
+              "RelativeDocumentMoniker": "ASP_HuynhNha_2122110299\\Data\\AppDbContextFactory.cs",
+              "ToolTip": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Data\\AppDbContextFactory.cs",
+              "RelativeToolTip": "ASP_HuynhNha_2122110299\\Data\\AppDbContextFactory.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAswBAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T07:48:49.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Model\\Category.cs",
+              "RelativeDocumentMoniker": "ASP_HuynhNha_2122110299\\Model\\Category.cs",
+              "ToolTip": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Model\\Category.cs",
+              "RelativeToolTip": "ASP_HuynhNha_2122110299\\Model\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T05:46:32.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\appsettings.json",
               "RelativeDocumentMoniker": "ASP_HuynhNha_2122110299\\appsettings.json",
               "ToolTip": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\appsettings.json",
               "RelativeToolTip": "ASP_HuynhNha_2122110299\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-03-28T08:37:57.207Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 17,
               "Title": "Startup.cs",
               "DocumentMoniker": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Startup.cs",
               "RelativeDocumentMoniker": "ASP_HuynhNha_2122110299\\Startup.cs",
@@ -206,85 +352,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 18,
               "Title": "ASP_HuynhNha_2122110299.csproj",
               "DocumentMoniker": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj",
               "RelativeDocumentMoniker": "ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj",
               "ToolTip": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj",
               "RelativeToolTip": "ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.csproj",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-04-11T02:39:23.931Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "ASP_HuynhNha_2122110299\\Controllers\\ProductController.cs",
-              "ToolTip": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "ASP_HuynhNha_2122110299\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAuwHcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T07:59:46.455Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Category.cs",
-              "DocumentMoniker": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Model\\Category.cs",
-              "RelativeDocumentMoniker": "ASP_HuynhNha_2122110299\\Model\\Category.cs",
-              "ToolTip": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Model\\Category.cs",
-              "RelativeToolTip": "ASP_HuynhNha_2122110299\\Model\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T05:46:32.106Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AppDbContextFactory.cs",
-              "DocumentMoniker": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Data\\AppDbContextFactory.cs",
-              "RelativeDocumentMoniker": "ASP_HuynhNha_2122110299\\Data\\AppDbContextFactory.cs",
-              "ToolTip": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Data\\AppDbContextFactory.cs",
-              "RelativeToolTip": "ASP_HuynhNha_2122110299\\Data\\AppDbContextFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T07:48:49.557Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Model\\User.cs",
-              "RelativeDocumentMoniker": "ASP_HuynhNha_2122110299\\Model\\User.cs",
-              "ToolTip": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Model\\User.cs",
-              "RelativeToolTip": "ASP_HuynhNha_2122110299\\Model\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T05:39:05.968Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "ASP_HuynhNha_2122110299\\Controllers\\AuthController.cs",
-              "ToolTip": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "ASP_HuynhNha_2122110299\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAIwDsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T06:02:20.713Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "ASP_HuynhNha_2122110299\\Controllers\\WeatherForecastController.cs",
@@ -297,7 +378,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "ASP_HuynhNha_2122110299.http",
               "DocumentMoniker": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.http",
               "RelativeDocumentMoniker": "ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.http",
@@ -305,11 +386,12 @@
               "RelativeToolTip": "ASP_HuynhNha_2122110299\\ASP_HuynhNha_2122110299.http",
               "ViewState": "AgIAAAEAAAAAAAAAAAAkwAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-04-04T08:33:22.905Z"
+              "WhenOpened": "2025-04-04T08:33:22.905Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "ASP_HuynhNha_2122110299\\WeatherForecast.cs",
@@ -317,19 +399,8 @@
               "RelativeToolTip": "ASP_HuynhNha_2122110299\\WeatherForecast.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T08:37:54.512Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "ASP_HuynhNha_2122110299\\Controllers\\CategoryController.cs",
-              "ToolTip": "D:\\ASP_HuynhNha_2122110299\\asp.huynhnha_2122110299\\ASP_HuynhNha_2122110299\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "ASP_HuynhNha_2122110299\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAA3wAoAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T06:28:43.22Z"
+              "WhenOpened": "2025-03-28T08:37:54.512Z",
+              "EditorCaption": ""
             }
           ]
         }

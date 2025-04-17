@@ -32,7 +32,7 @@ public class OrderController : ControllerBase
         var order = _context.Orders
             .Include(o => o.OrderDetails)
             .ThenInclude(od => od.Product)
-            .FirstOrDefault(o => o.Id == orderId);
+            .FirstOrDefault(o => o.OrderId == orderId);
 
         if (order == null)
             return NotFound();

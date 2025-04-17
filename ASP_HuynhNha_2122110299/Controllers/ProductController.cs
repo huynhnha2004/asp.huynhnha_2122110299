@@ -46,7 +46,7 @@ namespace ASP_HuynhNha_2122110299.Controllers
             {
                 var product = await _context.Products
                                             .Include(p => p.Category)
-                                            .FirstOrDefaultAsync(p => p.Id == id);
+                                            .FirstOrDefaultAsync(p => p.ProductId == id);
 
                 if (product == null)
                 {
@@ -67,14 +67,14 @@ namespace ASP_HuynhNha_2122110299.Controllers
             _context.Products.Add(product);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetProduct), new { id = product.Id }, product);
+            return CreatedAtAction(nameof(GetProduct), new { id = product.ProductId }, product);
         }
 
         // Cập nhật sản phẩm
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateProduct(int id, Product product)
         {
-            if (id != product.Id)
+            if (id != product.ProductId)
             {
                 return BadRequest();
             }
@@ -87,7 +87,7 @@ namespace ASP_HuynhNha_2122110299.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!_context.Products.Any(e => e.Id == id))
+                if (!_context.Products.Any(e => e.ProductId == id))
                 {
                     return NotFound();
                 }

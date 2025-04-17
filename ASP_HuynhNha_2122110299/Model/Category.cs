@@ -2,9 +2,10 @@
 {
     public class Category
     {
-        public int Id { get; set; }
+        public int CategoryId { get; set; }
         public string Name { get; set; }
 
-        public List<Product> Products { get; set; }
+        // Đảm bảo có danh sách Products
+        public ICollection<Product> Products { get; set; }
     }
 }
