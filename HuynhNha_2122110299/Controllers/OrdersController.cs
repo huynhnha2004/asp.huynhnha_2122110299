@@ -36,7 +36,7 @@ namespace HuynhNha_2122110299.Controllers
             var order = await _context.Orders
                 .Include(o => o.User)
                 .Include(o => o.OrderDetails)
-                .FirstOrDefaultAsync(o => o.Id == id);
+                .FirstOrDefaultAsync(o => o.OrderId == id);
 
             if (order == null)
             {
@@ -57,18 +57,12 @@ namespace HuynhNha_2122110299.Controllers
             var order = new Order
             {
                 UserId = userId,
-                Name = request.Name,
-                Phone = request.Phone,
-                Email = request.Email,
-                Address = request.Address,
-                Note = request.Note,
-                TotalAmount = request.TotalAmount,
-                PaymentMethod = request.PaymentMethod,
+              
+                Total = request.TotalAmount,
+              
 
-                CreatedBy = userId,
-                CreatedAt = DateTime.Now,
-                UpdatedAt = DateTime.Now,
-                DeletedAt = null
+                OrderDate = 1,
+              
             };
 
             // Thêm order vào context
@@ -80,7 +74,7 @@ namespace HuynhNha_2122110299.Controllers
             {
                 var detail = new OrderDetail
                 {
-                    OrderId = order.Id,
+                    OrderId = order.OrderId,
                     ProductId = item.ProductId,
                     Quantity = item.Quantity,
                     Price = item.Price,
@@ -114,22 +108,14 @@ namespace HuynhNha_2122110299.Controllers
             var order = await _context.Orders.FindAsync(id);
             var userId = int.Parse(User.FindFirst("id")?.Value ?? "1");
 
-            if (order == null || order.DeletedAt != null)
+            if (order == null )
                 return NotFound();
 
             // Cập nhật thông tin đơn hàng nếu có
-            if (!string.IsNullOrWhiteSpace(request.Name)) order.Name = request.Name;
-            if (!string.IsNullOrWhiteSpace(request.Phone)) order.Phone = request.Phone;
-            if (!string.IsNullOrWhiteSpace(request.Email)) order.Email = request.Email;
-            if (!string.IsNullOrWhiteSpace(request.Address)) order.Address = request.Address;
-            if (!string.IsNullOrWhiteSpace(request.Note)) order.Note = request.Note;
-            if (!string.IsNullOrWhiteSpace(request.PaymentMethod)) order.PaymentMethod = request.PaymentMethod;
-            if (request.TotalAmount.HasValue) order.TotalAmount = request.TotalAmount.Value;
+           
+            if (request.TotalAmount.HasValue) order.Total = request.TotalAmount.Value;
 
-            order.UpdatedAt = DateTime.Now;
-            order.UpdatedBy = userId;
-            order.DeletedAt = null;
-
+           
 
 
             await _context.SaveChangesAsync();
@@ -146,16 +132,14 @@ namespace HuynhNha_2122110299.Controllers
         {
             var order = await _context.Orders
                 .Include(o => o.OrderDetails)
-                .FirstOrDefaultAsync(o => o.Id == id);
+                .FirstOrDefaultAsync(o => o.OrderId == id);
 
-            if (order == null || order.DeletedAt != null)
+            if (order == null )
                 return NotFound();
 
             var userId = int.Parse(User.FindFirst("id")?.Value ?? "1");
             var now = DateTime.Now;
 
-            order.DeletedAt = now;
-            order.DeletedBy = userId;
 
             // ❗ Xoá mềm tất cả OrderDetail liên quan
             foreach (var detail in order.OrderDetails)
@@ -175,17 +159,14 @@ namespace HuynhNha_2122110299.Controllers
         {
             var order = await _context.Orders
                 .Include(o => o.OrderDetails)
-                .FirstOrDefaultAsync(o => o.Id == id);
+                .FirstOrDefaultAsync(o => o.OrderId == id);
 
             var userId = int.Parse(User.FindFirst("id")?.Value ?? "1");
 
-            if (order == null || order.DeletedAt == null)
+            if (order == null)
                 return NotFound();
 
-            order.DeletedAt = null;
-            order.UpdatedAt = DateTime.Now;
-            order.UpdatedBy = userId;
-
+           
             foreach (var detail in order.OrderDetails)
             {
                 detail.DeletedAt = null;
@@ -205,7 +186,7 @@ namespace HuynhNha_2122110299.Controllers
         {
             var order = await _context.Orders
                 .Include(o => o.OrderDetails)
-                .FirstOrDefaultAsync(o => o.Id == id);
+                .FirstOrDefaultAsync(o => o.OrderId == id);
 
             if (order == null)
                 return NotFound();
@@ -219,6 +200,25 @@ namespace HuynhNha_2122110299.Controllers
             await _context.SaveChangesAsync();
             return Ok("🗑️ Đã xoá vĩnh viễn đơn hàng và chi tiết liên quan.");
         }
+        // API 1: GetProductByCategoryId
+        // GET: api/Product/category/{categoryId}
+        [HttpGet("category/{categoryId}")]
+        public async Task<IActionResult> GetProductByCategoryId(int categoryId)
+        {
+            var products = await _context.Products
+                .Include(p => p.Category)
+                //.Include(p => p.Brand)
+                .Where(p => p.CategoryId == categoryId)
+                .ToListAsync();
+
+            if (!products.Any())
+            {
+                return NotFound("Không tìm thấy sản phẩm trong danh mục này.");
+            }
+
+            return Ok(products);
+        }
+
 
     }
 }

@@ -23,20 +23,18 @@ namespace HuynhNha_2122110299.Controllers
             _context = context;
             _jwtSettings = jwtOptions.Value;
         }
-
         [AllowAnonymous]
         [HttpPost("login")]
         public IActionResult Login([FromBody] LoginRequest request)
         {
-            var user = _context.Users.FirstOrDefault(u =>
-                u.Email == request.Email && u.Password == request.Password);
-
-            if (user == null) return Unauthorized("Sai tài khoản hoặc mật khẩu");
-
+            var user = _context.Users.FirstOrDefault(u => u.Email == request.Email);
+            if (user == null || user.Password != request.Password)
+            {
+                return Unauthorized("Sai tài khoản hoặc mật khẩu");
+            }
             var token = GenerateJwtToken(user);
             return Ok(new { token });
         }
-
         [Authorize]
         [HttpGet("me")]
         public IActionResult Me()
@@ -44,13 +42,14 @@ namespace HuynhNha_2122110299.Controllers
             var identity = HttpContext.User.Identity as ClaimsIdentity;
             if (identity != null)
             {
-                var idClaim = identity.FindFirst("id")?.Value;
-                var user = _context.Users.FirstOrDefault(u => u.Id.ToString() == idClaim);
+
+                var idClaim = identity.FindFirst("UserId")?.Value;
+                var user = _context.Users.FirstOrDefault(u => u.UserId.ToString() == idClaim);
                 if (user != null)
                 {
                     return Ok(new
                     {
-                        id = user.Id,
+                        id = user.UserId,
                         email = user.Email,
                         role = user.Role,
                         fullName = user.FullName // tùy chỉnh thêm
@@ -68,7 +67,7 @@ namespace HuynhNha_2122110299.Controllers
             var claims = new[]
             {
                 new Claim(JwtRegisteredClaimNames .Sub, user.Email),
-                new Claim("id", user.Id.ToString()),
+                new Claim("UserId", user.UserId.ToString()),
                 new Claim(ClaimTypes.Role, user.Role ?? "customer"),
             };
 

@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\ASP_HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\wwwroot\\uploads\\product\\ao_thun_nam.jpg",
+      "PackagePath": "staticwebassets\\uploads\\product\\ao_thun_nam.jpg"
+    },
+    {
+      "Id": "D:\\ASP_HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\wwwroot\\uploads\\product\\nuoc-hoa.jpg",
+      "PackagePath": "staticwebassets\\uploads\\product\\nuoc-hoa.jpg"
+    },
+    {
+      "Id": "D:\\ASP_HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\wwwroot\\uploads\\product\\nuoc-hoayh.jpg",
+      "PackagePath": "staticwebassets\\uploads\\product\\nuoc-hoayh.jpg"
+    },
+    {
+      "Id": "D:\\ASP_HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\wwwroot\\uploads\\product\\samsung_tv (2).jpg",
+      "PackagePath": "staticwebassets\\uploads\\product\\samsung_tv (2).jpg"
+    },
+    {
+      "Id": "D:\\ASP_HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\wwwroot\\uploads\\product\\samsung_tv.jpg",
+      "PackagePath": "staticwebassets\\uploads\\product\\samsung_tv.jpg"
+    },
+    {
+      "Id": "D:\\ASP_HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\wwwroot\\uploads\\product\\son_moi.jpg",
+      "PackagePath": "staticwebassets\\uploads\\product\\son_moi.jpg"
+    },
+    {
+      "Id": "D:\\ASP_HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\wwwroot\\uploads\\product\\yhuinn.png",
+      "PackagePath": "staticwebassets\\uploads\\product\\yhuinn.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.HuynhNha_2122110299.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.HuynhNha_2122110299.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.HuynhNha_2122110299.props",
+      "PackagePath": "build\\HuynhNha_2122110299.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.HuynhNha_2122110299.props",
+      "PackagePath": "buildMultiTargeting\\HuynhNha_2122110299.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.HuynhNha_2122110299.props",
+      "PackagePath": "buildTransitive\\HuynhNha_2122110299.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

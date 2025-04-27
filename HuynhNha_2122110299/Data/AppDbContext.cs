@@ -14,9 +14,10 @@ namespace HuynhNha_2122110299.Data
         public DbSet<User> Users { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<Category> Categories { get; set; }
-        public DbSet<Brand> Brands { get; set; }
+        //public DbSet<Brand> Brands { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderDetail> OrderDetails { get; set; }
+        public DbSet<TinTuc> TinTuc { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -29,56 +30,25 @@ namespace HuynhNha_2122110299.Data
                 .WithMany(c => c.Products)
                 .HasForeignKey(p => p.CategoryId)
                 .OnDelete(DeleteBehavior.Cascade);
+            modelBuilder.Entity<Product>()
+    .HasKey(p => p.ProductId); // Đặt ProductId làm khóa chính
 
             modelBuilder.Entity<Product>()
-                .HasOne(p => p.Brand)
-                .WithMany(b => b.Products)
-                .HasForeignKey(p => p.BrandId)
-                .OnDelete(DeleteBehavior.Cascade);
-
+                .Property(p => p.ProductId)
+                .ValueGeneratedOnAdd(); // Tự động tăng khóa chính
             modelBuilder.Entity<Product>()
-                .HasOne(p => p.CreatedByUser)
-                .WithMany()
-                .HasForeignKey(p => p.CreatedBy)
-                .HasConstraintName("FK_Products_Users_CreatedBy")
-                .OnDelete(DeleteBehavior.Restrict);
-
-            modelBuilder.Entity<Product>()
-                .HasOne(p => p.UpdatedByUser)
-                .WithMany()
-                .HasForeignKey(p => p.UpdatedBy)
-                .HasConstraintName("FK_Products_Users_UpdatedBy")
-                .OnDelete(DeleteBehavior.Restrict);
-
-            modelBuilder.Entity<Product>()
-                .HasOne(p => p.DeletedByUser)
-                .WithMany()
-                .HasForeignKey(p => p.DeletedBy)
-                .HasConstraintName("FK_Products_Users_DeletedBy")
-                .OnDelete(DeleteBehavior.Restrict);
+    .Property(p => p.ImageUrl)
+    .IsRequired() // Không cho phép NULL
+    .HasMaxLength(500) // Độ dài tối đa của đường dẫn
+    .HasColumnType("nvarchar(500)");
+            //modelBuilder.Entity<Product>()
+            //    .HasOne(p => p.Brand)
+            //    .WithMany(b => b.Products)
+            //    .HasForeignKey(p => p.BrandId)
+            //    .OnDelete(DeleteBehavior.Cascade);
 
             // ======================= BRAND ========================
 
-            modelBuilder.Entity<Brand>()
-                .HasOne(b => b.CreatedByUser)
-                .WithMany()
-                .HasForeignKey(b => b.CreatedBy)
-                .HasConstraintName("FK_Brands_Users_CreatedBy")
-                .OnDelete(DeleteBehavior.Restrict);
-
-            modelBuilder.Entity<Brand>()
-                .HasOne(b => b.UpdatedByUser)
-                .WithMany()
-                .HasForeignKey(b => b.UpdatedBy)
-                .HasConstraintName("FK_Brands_Users_UpdatedBy")
-                .OnDelete(DeleteBehavior.Restrict);
-
-            modelBuilder.Entity<Brand>()
-                .HasOne(b => b.DeletedByUser)
-                .WithMany()
-                .HasForeignKey(b => b.DeletedBy)
-                .HasConstraintName("FK_Brands_Users_DeletedBy")
-                .OnDelete(DeleteBehavior.Restrict);
 
             // ======================= CATEGORY ========================
 
@@ -112,27 +82,7 @@ namespace HuynhNha_2122110299.Data
                 .HasConstraintName("FK_Orders_Users_UserId")
                 .OnDelete(DeleteBehavior.Cascade);
 
-            modelBuilder.Entity<Order>()
-                .HasOne(o => o.CreatedByUser)
-                .WithMany()
-                .HasForeignKey(o => o.CreatedBy)
-                .HasConstraintName("FK_Orders_Users_CreatedBy")
-                .OnDelete(DeleteBehavior.Restrict);
-
-            modelBuilder.Entity<Order>()
-                .HasOne(o => o.UpdatedByUser)
-                .WithMany()
-                .HasForeignKey(o => o.UpdatedBy)
-                .HasConstraintName("FK_Orders_Users_UpdatedBy")
-                .OnDelete(DeleteBehavior.Restrict);
-
-            modelBuilder.Entity<Order>()
-                .HasOne(o => o.DeletedByUser)
-                .WithMany()
-                .HasForeignKey(o => o.DeletedBy)
-                .HasConstraintName("FK_Orders_Users_DeletedBy")
-                .OnDelete(DeleteBehavior.Restrict);
-
+         
             // ======================= ORDER DETAIL ========================
 
             modelBuilder.Entity<OrderDetail>()
@@ -171,8 +121,7 @@ namespace HuynhNha_2122110299.Data
             // ======================= DECIMAL CONFIG ========================
 
             modelBuilder.Entity<Product>().Property(p => p.Price).HasPrecision(18, 2);
-            modelBuilder.Entity<Product>().Property(p => p.PriceSale).HasPrecision(18, 2);
-            modelBuilder.Entity<Order>().Property(o => o.TotalAmount).HasPrecision(18, 2);
+            modelBuilder.Entity<Order>().Property(o => o.Total).HasPrecision(18, 2);
             modelBuilder.Entity<OrderDetail>().Property(d => d.Price).HasPrecision(18, 2);
         }
     }

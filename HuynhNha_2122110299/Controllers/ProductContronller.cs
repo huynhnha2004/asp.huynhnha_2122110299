@@ -30,8 +30,11 @@ namespace HuynhNha_2122110299.Controllers
         {
             var products = await _context.Products
                 .Include(p => p.Category)
-                .Include(p => p.Brand)
+                //.Include(p => p.Brand)
                 .ToListAsync();
+            var query = _context.Products.ToQueryString();
+            Console.WriteLine(query);
+
             return Ok(products);
         }
 
@@ -39,27 +42,27 @@ namespace HuynhNha_2122110299.Controllers
         [HttpGet("category/{categoryId}")]
         public async Task<IActionResult> GetByCategory(int categoryId)
         {
-            var products = await _context.Products
+            var products = await _context.Products 
                 .Include(p => p.Category)
-                .Include(p => p.Brand)
-                .Where(p => p.CategoryId == categoryId && p.DeletedAt == null)
+                //.Include(p => p.Brand)
+                .Where(p => p.CategoryId == categoryId )
                 .ToListAsync();
 
             return Ok(products);
         }
 
-        // GET: api/Product/brand/4
-        [HttpGet("brand/{brandId}")]
-        public async Task<IActionResult> GetByBrand(int brandId)
-        {
-            var products = await _context.Products
-                .Include(p => p.Category)
-                .Include(p => p.Brand)
-                .Where(p => p.BrandId == brandId && p.DeletedAt == null)
-                .ToListAsync();
+        //// GET: api/Product/brand/4
+        //[HttpGet("brand/{brandId}")]
+        //public async Task<IActionResult> GetByBrand(int brandId)
+        //{
+        //    var products = await _context.Products
+        //        .Include(p => p.Category)
+        //        .Include(p => p.Brand)
+        //        .Where(p => p.BrandId == brandId && p.DeletedAt == null)
+        //        .ToListAsync();
 
-            return Ok(products);
-        }
+        //    return Ok(products);
+        //}
 
 
         // GET: api/Product/5
@@ -68,8 +71,8 @@ namespace HuynhNha_2122110299.Controllers
         {
             var product = await _context.Products
                 .Include(p => p.Category)
-                .Include(p => p.Brand)
-                .FirstOrDefaultAsync(p => p.Id == id);
+                //.Include(p => p.Brand)
+                .FirstOrDefaultAsync(p => p.ProductId == id);
 
             if (product == null)
                 return NotFound();
@@ -109,14 +112,9 @@ namespace HuynhNha_2122110299.Controllers
             {
                 Name = request.Name,
                 Price = request.Price,
-                PriceSale = request.PriceSale,
                 Description = request.Description,
                 CategoryId = request.CategoryId,
-                BrandId = request.BrandId,
-                Thumbnail = thumbnailPath,
-                CreatedBy = userId,
-                CreatedAt = DateTime.Now
-                // UpdatedBy/DeletedBy để null, UpdatedAt/DeletedAt null luôn
+                ImageUrl = thumbnailPath,
             };
 
             _context.Products.Add(product);
@@ -131,7 +129,7 @@ namespace HuynhNha_2122110299.Controllers
         public async Task<IActionResult> Update(int id, [FromForm] ProductUpdateRequest request)
         {
             var product = await _context.Products.FindAsync(id);
-            if (product == null || product.DeletedAt != null)
+            if (product == null )
                 return NotFound();
 
             var userId = int.Parse(User.FindFirst("id")?.Value ?? "0");
@@ -152,15 +150,7 @@ namespace HuynhNha_2122110299.Controllers
                 using var stream = new FileStream(filePath, FileMode.Create);
                 await request.ThumbnailFile.CopyToAsync(stream);
 
-                // (tuỳ chọn) xoá file cũ nếu có
-                if (!string.IsNullOrEmpty(product.Thumbnail))
-                {
-                    var oldPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", product.Thumbnail);
-                    if (System.IO.File.Exists(oldPath))
-                        System.IO.File.Delete(oldPath);
-                }
-
-                product.Thumbnail = fileName;
+             
             }
 
             // 2) Cập nhật các field khác nếu bên request có giá trị
@@ -170,22 +160,17 @@ namespace HuynhNha_2122110299.Controllers
             if (request.Price.HasValue)
                 product.Price = request.Price.Value;
 
-            if (request.PriceSale.HasValue)
-                product.PriceSale = request.PriceSale;
-
+           
             if (!string.IsNullOrWhiteSpace(request.Description))
                 product.Description = request.Description;
 
             if (request.CategoryId.HasValue)
                 product.CategoryId = request.CategoryId.Value;
 
-            if (request.BrandId.HasValue)
-                product.BrandId = request.BrandId.Value;
+            //if (request.BrandId.HasValue)
+            //    product.BrandId = request.BrandId.Value;
 
-            // 3) Cập nhật trường audit
-            product.UpdatedBy = userId;
-            product.UpdatedAt = DateTime.Now;
-
+         
             await _context.SaveChangesAsync();
             return Ok(product);
         }
@@ -199,8 +184,6 @@ namespace HuynhNha_2122110299.Controllers
             var userId = int.Parse(User.FindFirst("id")?.Value ?? "1");
             if (product == null) return NotFound();
 
-            product.DeletedAt = DateTime.Now;
-            product.DeletedBy = userId;
             await _context.SaveChangesAsync();
 
             return Ok("Đã xóa mềm");
@@ -213,12 +196,8 @@ namespace HuynhNha_2122110299.Controllers
         {
             var product = await _context.Products.FindAsync(id);
             var userId = int.Parse(User.FindFirst("id")?.Value ?? "1");
-            if (product == null || product.DeletedAt == null)
+            if (product == null )
                 return NotFound();
-
-            product.DeletedAt = null;
-            product.UpdatedAt = DateTime.Now;
-            product.UpdatedBy = userId;
 
             await _context.SaveChangesAsync();
             return Ok("Đã khôi phục");
@@ -238,5 +217,7 @@ namespace HuynhNha_2122110299.Controllers
             await _context.SaveChangesAsync();
             return Ok("Đã xóa vĩnh viễn");
         }
+
+
     }
 }

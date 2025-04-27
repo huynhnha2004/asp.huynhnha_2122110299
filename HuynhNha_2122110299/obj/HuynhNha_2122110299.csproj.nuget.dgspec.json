@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299.csproj": {}
+    "D:\\ASP_HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299.csproj": {}
   },
   "projects": {
-    "D:\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299.csproj": {
+    "D:\\ASP_HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299.csproj",
+        "projectUniqueName": "D:\\ASP_HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299.csproj",
         "projectName": "HuynhNha_2122110299",
-        "projectPath": "D:\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299.csproj",
-        "packagesPath": "C:\\Users\\dinhl\\.nuget\\packages\\",
-        "outputPath": "D:\\HuynhNha_2122110299\\HuynhNha_2122110299\\obj\\",
+        "projectPath": "D:\\ASP_HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299.csproj",
+        "packagesPath": "C:\\Users\\nhahu\\.nuget\\packages\\",
+        "outputPath": "D:\\ASP_HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\dinhl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nhahu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -96,7 +97,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

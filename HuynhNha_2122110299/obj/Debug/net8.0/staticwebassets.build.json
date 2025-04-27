@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FiqcrOOnqdevNPzdchzmDDBLXaDMYgB0elP2SIZ+IGY=",
+  "Hash": "UjO8IchF2Buc7YeCoY2hmZzI3HswGGxo4UUhwKmzbyk=",
   "Source": "HuynhNha_2122110299",
   "BasePath": "_content/HuynhNha_2122110299",
   "Mode": "Default",
@@ -10,11 +10,734 @@
     {
       "Name": "HuynhNha_2122110299\\wwwroot",
       "Source": "HuynhNha_2122110299",
-      "ContentRoot": "D:\\HuynhNha_2122110299\\HuynhNha_2122110299\\wwwroot\\",
+      "ContentRoot": "D:\\ASP_HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\wwwroot\\",
       "BasePath": "_content/HuynhNha_2122110299",
       "Pattern": "**"
     }
   ],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": [
+    {
+      "Identity": "D:\\ASP_HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\wwwroot\\uploads\\product\\ao_thun_nam.jpg",
+      "SourceId": "HuynhNha_2122110299",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP_HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\wwwroot\\",
+      "BasePath": "_content/HuynhNha_2122110299",
+      "RelativePath": "uploads/product/ao_thun_nam#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "owl4zuwq4k",
+      "Integrity": "6AIc/cgGEi0LqqT/DX1gwEoEIssO3+AuJEZjWBa4bGc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\product\\ao_thun_nam.jpg"
+    },
+    {
+      "Identity": "D:\\ASP_HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\wwwroot\\uploads\\product\\nuoc-hoa.jpg",
+      "SourceId": "HuynhNha_2122110299",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP_HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\wwwroot\\",
+      "BasePath": "_content/HuynhNha_2122110299",
+      "RelativePath": "uploads/product/nuoc-hoa#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bwt92gynzl",
+      "Integrity": "ZZ4suUFn25ax/qFRnjXnk4eMOM+Lh1+GPulzYoCRwhw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\product\\nuoc-hoa.jpg"
+    },
+    {
+      "Identity": "D:\\ASP_HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\wwwroot\\uploads\\product\\nuoc-hoayh.jpg",
+      "SourceId": "HuynhNha_2122110299",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP_HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\wwwroot\\",
+      "BasePath": "_content/HuynhNha_2122110299",
+      "RelativePath": "uploads/product/nuoc-hoayh#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bwt92gynzl",
+      "Integrity": "ZZ4suUFn25ax/qFRnjXnk4eMOM+Lh1+GPulzYoCRwhw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\product\\nuoc-hoayh.jpg"
+    },
+    {
+      "Identity": "D:\\ASP_HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\wwwroot\\uploads\\product\\samsung_tv (2).jpg",
+      "SourceId": "HuynhNha_2122110299",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP_HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\wwwroot\\",
+      "BasePath": "_content/HuynhNha_2122110299",
+      "RelativePath": "uploads/product/samsung_tv (2)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7a3xgehpjl",
+      "Integrity": "IRneX4EhNhv2FedzDts/SNA9ekIXBvvG4Ktj/uirm/A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\product\\samsung_tv (2).jpg"
+    },
+    {
+      "Identity": "D:\\ASP_HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\wwwroot\\uploads\\product\\samsung_tv.jpg",
+      "SourceId": "HuynhNha_2122110299",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP_HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\wwwroot\\",
+      "BasePath": "_content/HuynhNha_2122110299",
+      "RelativePath": "uploads/product/samsung_tv#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k8vf7se8ku",
+      "Integrity": "5IK5dl02/ZMn/zI+sG5a4mOG23JAvftYsKvupHwZ3Jk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\product\\samsung_tv.jpg"
+    },
+    {
+      "Identity": "D:\\ASP_HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\wwwroot\\uploads\\product\\son_moi.jpg",
+      "SourceId": "HuynhNha_2122110299",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP_HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\wwwroot\\",
+      "BasePath": "_content/HuynhNha_2122110299",
+      "RelativePath": "uploads/product/son_moi#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e1elre6bi9",
+      "Integrity": "rrK6vckHcBuhGhdVYSIBLU7LX3m3lx4tM9bVoM3LPbM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\product\\son_moi.jpg"
+    },
+    {
+      "Identity": "D:\\ASP_HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\wwwroot\\uploads\\product\\yhuinn.png",
+      "SourceId": "HuynhNha_2122110299",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP_HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\wwwroot\\",
+      "BasePath": "_content/HuynhNha_2122110299",
+      "RelativePath": "uploads/product/yhuinn#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zf5f7djmfx",
+      "Integrity": "TzRj7oBxjAZuHc3B/rGLdlEGlgh70U8wN9Le+fhdYbE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\product\\yhuinn.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "uploads/product/ao_thun_nam.jpg",
+      "AssetFile": "D:\\ASP_HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\wwwroot\\uploads\\product\\ao_thun_nam.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9536"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6AIc/cgGEi0LqqT/DX1gwEoEIssO3+AuJEZjWBa4bGc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 07:52:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6AIc/cgGEi0LqqT/DX1gwEoEIssO3+AuJEZjWBa4bGc="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/product/ao_thun_nam.owl4zuwq4k.jpg",
+      "AssetFile": "D:\\ASP_HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\wwwroot\\uploads\\product\\ao_thun_nam.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9536"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6AIc/cgGEi0LqqT/DX1gwEoEIssO3+AuJEZjWBa4bGc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 07:52:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "owl4zuwq4k"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/product/ao_thun_nam.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6AIc/cgGEi0LqqT/DX1gwEoEIssO3+AuJEZjWBa4bGc="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/product/nuoc-hoa.bwt92gynzl.jpg",
+      "AssetFile": "D:\\ASP_HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\wwwroot\\uploads\\product\\nuoc-hoa.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "508332"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZZ4suUFn25ax/qFRnjXnk4eMOM+Lh1+GPulzYoCRwhw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 14:27:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bwt92gynzl"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/product/nuoc-hoa.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZZ4suUFn25ax/qFRnjXnk4eMOM+Lh1+GPulzYoCRwhw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/product/nuoc-hoa.jpg",
+      "AssetFile": "D:\\ASP_HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\wwwroot\\uploads\\product\\nuoc-hoa.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "508332"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZZ4suUFn25ax/qFRnjXnk4eMOM+Lh1+GPulzYoCRwhw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 14:27:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZZ4suUFn25ax/qFRnjXnk4eMOM+Lh1+GPulzYoCRwhw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/product/nuoc-hoayh.bwt92gynzl.jpg",
+      "AssetFile": "D:\\ASP_HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\wwwroot\\uploads\\product\\nuoc-hoayh.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "508332"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZZ4suUFn25ax/qFRnjXnk4eMOM+Lh1+GPulzYoCRwhw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 14:38:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bwt92gynzl"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/product/nuoc-hoayh.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZZ4suUFn25ax/qFRnjXnk4eMOM+Lh1+GPulzYoCRwhw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/product/nuoc-hoayh.jpg",
+      "AssetFile": "D:\\ASP_HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\wwwroot\\uploads\\product\\nuoc-hoayh.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "508332"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZZ4suUFn25ax/qFRnjXnk4eMOM+Lh1+GPulzYoCRwhw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 14:38:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZZ4suUFn25ax/qFRnjXnk4eMOM+Lh1+GPulzYoCRwhw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/product/samsung_tv (2).7a3xgehpjl.jpg",
+      "AssetFile": "D:\\ASP_HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\wwwroot\\uploads\\product\\samsung_tv (2).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74232"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IRneX4EhNhv2FedzDts/SNA9ekIXBvvG4Ktj/uirm/A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 07:51:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7a3xgehpjl"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/product/samsung_tv (2).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IRneX4EhNhv2FedzDts/SNA9ekIXBvvG4Ktj/uirm/A="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/product/samsung_tv (2).jpg",
+      "AssetFile": "D:\\ASP_HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\wwwroot\\uploads\\product\\samsung_tv (2).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74232"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IRneX4EhNhv2FedzDts/SNA9ekIXBvvG4Ktj/uirm/A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 07:51:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IRneX4EhNhv2FedzDts/SNA9ekIXBvvG4Ktj/uirm/A="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/product/samsung_tv.jpg",
+      "AssetFile": "D:\\ASP_HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\wwwroot\\uploads\\product\\samsung_tv.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36102"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5IK5dl02/ZMn/zI+sG5a4mOG23JAvftYsKvupHwZ3Jk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 07:55:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5IK5dl02/ZMn/zI+sG5a4mOG23JAvftYsKvupHwZ3Jk="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/product/samsung_tv.k8vf7se8ku.jpg",
+      "AssetFile": "D:\\ASP_HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\wwwroot\\uploads\\product\\samsung_tv.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36102"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5IK5dl02/ZMn/zI+sG5a4mOG23JAvftYsKvupHwZ3Jk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 07:55:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k8vf7se8ku"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/product/samsung_tv.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5IK5dl02/ZMn/zI+sG5a4mOG23JAvftYsKvupHwZ3Jk="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/product/son_moi.e1elre6bi9.jpg",
+      "AssetFile": "D:\\ASP_HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\wwwroot\\uploads\\product\\son_moi.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11739"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rrK6vckHcBuhGhdVYSIBLU7LX3m3lx4tM9bVoM3LPbM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 07:54:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e1elre6bi9"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/product/son_moi.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rrK6vckHcBuhGhdVYSIBLU7LX3m3lx4tM9bVoM3LPbM="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/product/son_moi.jpg",
+      "AssetFile": "D:\\ASP_HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\wwwroot\\uploads\\product\\son_moi.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11739"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rrK6vckHcBuhGhdVYSIBLU7LX3m3lx4tM9bVoM3LPbM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 07:54:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rrK6vckHcBuhGhdVYSIBLU7LX3m3lx4tM9bVoM3LPbM="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/product/yhuinn.png",
+      "AssetFile": "D:\\ASP_HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\wwwroot\\uploads\\product\\yhuinn.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "57698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TzRj7oBxjAZuHc3B/rGLdlEGlgh70U8wN9Le+fhdYbE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 05:33:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TzRj7oBxjAZuHc3B/rGLdlEGlgh70U8wN9Le+fhdYbE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/product/yhuinn.zf5f7djmfx.png",
+      "AssetFile": "D:\\ASP_HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\HuynhNha_2122110299\\wwwroot\\uploads\\product\\yhuinn.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "57698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TzRj7oBxjAZuHc3B/rGLdlEGlgh70U8wN9Le+fhdYbE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 05:33:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zf5f7djmfx"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/product/yhuinn.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TzRj7oBxjAZuHc3B/rGLdlEGlgh70U8wN9Le+fhdYbE="
+        }
+      ]
+    }
+  ]
 }

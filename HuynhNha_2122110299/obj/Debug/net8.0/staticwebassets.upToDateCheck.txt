@@ -1,0 +1,7 @@
+wwwroot\uploads\product\ao_thun_nam.jpg
+wwwroot\uploads\product\nuoc-hoa.jpg
+wwwroot\uploads\product\nuoc-hoayh.jpg
+wwwroot\uploads\product\samsung_tv (2).jpg
+wwwroot\uploads\product\samsung_tv.jpg
+wwwroot\uploads\product\son_moi.jpg
+wwwroot\uploads\product\yhuinn.png
